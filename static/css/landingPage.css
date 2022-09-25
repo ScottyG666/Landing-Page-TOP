@@ -18,7 +18,7 @@ html, body {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#555f6e",endColorstr="#1f2937",GradientType=1);
 
     padding: 0 150px;
-    height: 410px;
+    height: 520px;
 }
 
 .low-contrast{
@@ -27,6 +27,10 @@ html, body {
 
 .high-contrast {
     color: var(--high-contrast);
+}
+
+.roboto-font {
+
 }
 
 nav {
@@ -58,7 +62,7 @@ nav > div {
 
 .hero-container {
     display: flex;
-    flex: 1;
+    margin-top: 3em;
 }
 
 .hero-column {
