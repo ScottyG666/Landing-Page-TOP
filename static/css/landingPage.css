@@ -1,0 +1,94 @@
+
+:root {
+    --high-contrast : #f9faf8;
+    --low-contrast: #e5e7eb;
+    --button-color : #3882f6;
+}
+
+html, body {
+    margin: 0;
+}
+
+
+.header-gradient {
+    background: rgb(85,95,110);
+    background: -moz-linear-gradient(0deg, rgba(85,95,110,1) 0%, rgba(31,41,55,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(85,95,110,1) 0%, rgba(31,41,55,1) 100%);
+    background: linear-gradient(0deg, rgba(85,95,110,1) 0%, rgba(31,41,55,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#555f6e",endColorstr="#1f2937",GradientType=1);
+
+    padding: 0 150px;
+    height: 410px;
+}
+
+.low-contrast{
+    color: var(--low-contrast);
+}
+
+.high-contrast {
+    color: var(--high-contrast);
+}
+
+nav {
+    height : 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > div {
+    height: 100%;
+}
+
+#company-logo{
+    height: 100%;
+}
+
+.nav-block-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    font-size: 18px;
+    color:  var(--low-contrast);
+    text-decoration: none;
+    margin: 25px;
+}
+
+
+.hero-container {
+    display: flex;
+    flex: 1;
+}
+
+.hero-column {
+    width: 50%;
+}
+
+.hero-title {
+    width: 300px;
+}
+
+.hero-subtext {
+    width: 400px ;
+}
+
+.hero-image-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: 75%;
+    padding: 0 25px;
+}
+
+.sign-up {
+    background-color: var(--button-color);
+    color: var(--high-contrast);
+    border: none;
+    border-radius: 5px ;
+    padding: 3px 15px;
+}
