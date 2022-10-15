@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample Landing Page</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="static/css/landingPage.css">
 </head>
 <body>
 
-    <div class="header-gradient">
+    <div class="gray-background-gradient ">
         <nav>
             <div>
                 <a href="#" target="_self">
@@ -19,17 +22,17 @@
                 </a>                
             </div>
             <div class="nav-block-right">
-                <a href="#" target="_self" class="nav-link low-contrast">Header Link One</a>
-                <a href="#" target="_self" class="nav-link low-contrast">Header Link Two</a>
-                <a href="#" target="_self" class="nav-link low-contrast">Header Link Three</a>
+                <a href="#random-info" target="_self" class="nav-link low-contrast">Some Random Information</a>
+                <a href="#quote-section" target="_self" class="nav-link low-contrast">Quote Section</a>
+                <a href="#call-to-action-section" target="_self" class="nav-link low-contrast">Call To Action</a>
             </div>
         </nav>
 
-        <div class="hero-container">
+        <div class="hero-container responsive-size">
             <div class="hero-column">
-                <h1 class="hero-title high-contrast">This website is awesome</h1>
+                <h1 class="hero-title high-contrast roboto-font-bold">This website is awesome</h1>
 
-                <p class="hero-subtext low-contrast">This website has some subtext that goes here under the main title.
+                <p class="subtext low-contrast roboto-font-regular">This website has some subtext that goes here under the main title.
                     It's a smaller font and lower color contrast.
                 </p>
 
@@ -40,6 +43,70 @@
                 <img src="static/images/aurora-borealis.jpg" alt="Filler picture for header" class="hero-image">
             </div>
         </div>
+    </div>
+
+    <div id="random-info" class="info-section responsive-size" >
+        <h1 class="rando-inf-title roboto-font-bold">Some Random Information.</h1>
+
+        <div class="information-row ">
+            <div>
+                <img class="info-pic" src="static/images/Dragonfly-picture.jpg" alt="Green DragonFly">
+                <p class="subtext rando-inf-subtext roboto-font-regular">
+                    Dragonflies were once over 18 inches long with a wingspan longer than some birds!
+                </p>
+            </div>
+            <div>
+                <img class="info-pic" src="static/images/Nosferatu-image.jpg" alt="Green DragonFly">
+                <p class="subtext rando-inf-subtext roboto-font-regular">
+                    Nosferatu is known to be the first vampire movie ever made.
+                </p>
+            </div>
+            <div>
+                <img class="info-pic" src="static/images/butterfly.jpg" alt="Green DragonFly">
+                <p class="subtext rando-inf-subtext roboto-font-regular">
+                    Lepidopterology is the study of butterflies.
+                </p>
+            </div>
+            <div>
+                <img class="info-pic" src="static/images/MirageGraphic.jpg" alt="Green DragonFly">
+                <p class="subtext rando-inf-subtext roboto-font-regular">
+                    Mirages are caused by hot air bending light from the sky, to the ground, then to your eyes.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="quote-section">
+        <div class="quote-container responsive-size ">
+            <blockquote class="quote">
+                Don't it always seem to go
+                that you don't know what you got 'til it's gone,
+                they paved paradise and put up a parking lot
+            </blockquote>
+            <p class="roboto-font-bold quote-citation">
+                - Joni Mitchell
+            </p>
+        </div>
+    </div>
+
+    <div id="call-to-action-section">
+        <div class="action-container gray-background-gradient">
+            <div class="action-text">
+                <h5 class="action-title">
+                    Call to action! It's time!
+                </h5>
+                <p class="action-subtitle">
+                    Sign up for our product by clicking that button right over there!
+                </p>
+            </div>
+            <div class="action-button">
+                <button class="sign-up action-sign-up" type="submit" >Sign up</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer gray-background-gradient">
 
     </div>
     
