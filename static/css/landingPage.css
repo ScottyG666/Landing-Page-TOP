@@ -221,6 +221,23 @@ margin-right:  50px;
     font-size: 20px;
 }
 
+.footer{
+    width: 100%;
+    display: flex;
+    
+}
+
+    
+.footer a{
+    font-size: 45px;
+    height: 100%;
+    margin:auto;
+    text-decoration: none;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+
 /*
 
 @media screen and (max-width :1200px) {
